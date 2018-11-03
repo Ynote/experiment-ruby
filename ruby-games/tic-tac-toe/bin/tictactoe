@@ -1,0 +1,7 @@
+#! /usr/bin/env ruby
+
+require_relative '../lib/tictactoe/game'
+
+game = TicTacToe::Game.new
+game.start
+

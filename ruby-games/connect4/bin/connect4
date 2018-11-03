@@ -1,0 +1,7 @@
+#! /usr/bin/env ruby
+
+require_relative '../lib/connect4/game.rb'
+
+game = Game.new
+game.start
+
